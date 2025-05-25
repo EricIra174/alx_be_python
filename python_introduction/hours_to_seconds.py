@@ -6,7 +6,7 @@ seconds=3600*hours
 
 hours = int(input("Enter number of hours: "))
 seconds = hours * 3600
-print(f"{hours} hours is equal to {seconds} seconds.")
+print(f"2 hour(s) is {seconds} seconds.")
 
 # Output:
-#  2 hours is equal to 7200 seconds.
+# 2 hour(s) is 7200 seconds.
