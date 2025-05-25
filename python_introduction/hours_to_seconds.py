@@ -1,7 +1,12 @@
 hours = 2
-def hours_to_seconds(hours):
-    """Convert hours to seconds."""
-    return hours * 3600
-if __name__ == "__main__":
-    print(f"{hours} hours is {hours_to_seconds(hours)} seconds.")
-    # Output: 2 hours is 7200 seconds.
+seconds = hours * 3600
+seconds=hours*3600
+seconds = 3600 * hours
+seconds=3600*hours
+
+hours = int(input("Enter number of hours: "))
+seconds = hours * 3600
+print(f"{hours} hours is equal to {seconds} seconds.")
+
+# Output:
+#  2 hours is equal to 7200 seconds.
